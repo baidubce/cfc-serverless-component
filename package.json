@@ -1,0 +1,30 @@
+{
+  "name": "@baiducloud/cfc-serverless-component",
+  "version": "1.0.0",
+  "description": "Baidu Cloud CFC Component",
+  "main": "./serverless.js",
+  "author": "Baidu Cloud CFC",
+  "license": "MIT",
+  "dependencies": {
+    "@baiducloud/sdk": "^1.0.0-rc.16",
+    "@serverless/core": "^1.1.2",
+    "archiver": "^3.1.1",
+    "cli-progress": "^3.8.2",
+    "fs-extra": "^8.1.0",
+    "globby": "^9.2.0",
+    "ignore": "^5.1.4",
+    "ramda": "^0.26.1",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {
+    "@baiducloud/sdk": "^1.0.0-rc.16",
+    "debug": "^3.2.6",
+    "mocha": "^7.1.2",
+    "prettier": "^1.18.2",
+    "standard-version": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baidubce/cfc-serverless-component.git"
+  }
+}

@@ -1,0 +1,8 @@
+# serverless.yml
+myFunction:
+  component: ../
+  inputs:
+    name: cfc-serverless-nodejs
+    region: bj
+    src: ./src
+    handler: index.handler
