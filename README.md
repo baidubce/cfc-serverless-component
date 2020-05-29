@@ -16,13 +16,16 @@ $ npm install -g serverless
 
 ### 2. 创建
 
-可以通过现有的cfc template创建CFC函数
+创建文件夹cfc-component，创建完成后的文件目录结构如下：
 
 ```
-$ serverless create --template-url  https://github.com/baidubce/cfc-serverless-component/templates/cfc
-$ cd cfc
+|- src
+  |- index.js  //函数入口
+|- serverless.yml
+|- .env
 ```
-然后在根目录中创建.env文件，添加百度云的AK, SK
+
+然后在根目录中的.env文件，添加百度云的AK, SK
 
 ```
 # .env

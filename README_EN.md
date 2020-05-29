@@ -13,12 +13,7 @@ $ npm install -g serverless
 
 ## 2. Create
 
-You can easily create a new `baidu-cfc` function just by using the following command and template url.
-```
-$ serverless create --template-url https://github.com/baidubce/cfc-serverless-component/templates/cfc
-$ cd cfc
-```
-Then, create a new `.env` file in the root of the `cfc` directory right next to `serverless.yml`, and add your Baidu Cloud access keys:
+Create folder cfc-component, then, create a new `.env` file in the root of the `cfc` directory right next to `serverless.yml`, and add your Baidu Cloud access keys:
 
 ```
 # .env
