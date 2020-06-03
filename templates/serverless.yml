@@ -1,0 +1,7 @@
+# serverless.yml
+myFunction:
+  component: "@baiducloud/cfc-serverless-component"
+  inputs:
+    name: cfc-serverless-nodejs
+    region: bj
+    src: ./src
