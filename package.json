@@ -1,6 +1,6 @@
 {
   "name": "@baiducloud/cfc-serverless-component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Baidu Cloud CFC Component",
   "main": "./serverless.js",
   "author": "Baidu Cloud CFC",

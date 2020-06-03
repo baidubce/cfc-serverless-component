@@ -19,7 +19,7 @@ $ npm install -g serverless
 可以通过现有的cfc template创建CFC函数
 
 ```
-$ serverless create --template-url  https://github.com/baidubce/cfc-serverless-component/tree/bd9cecbf0c8bb5b5ad340b2ff5053f055e59d3be/templates/cfc
+$ serverless create --template-url  https://github.com/baidubce/cfc-serverless-component/tree/master/templates/cfc
 $ cd cfc
 ```
 
